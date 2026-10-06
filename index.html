@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAKER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="pop-up" id="pop-up-1">
+      <h1>
+        SAÍDA <br />
+        BLOQUEADA
+      </h1>
+      <p>
+        As palavras vocês conseguiram encontrar, mas, para a senha, a ordem
+        devem observar! Leiam o texto com atenção, para cada espaço completar...
+        Seguindo a sequência das lacunas, a senha vai se formar!
+      </p>
+      <img
+        src="./sources/images/seta.png"
+        id="seta-ir-pra-senha"
+        class="seta"
+        alt="seta"
+      />
+    </div>
+
+    <div class="pop-up-senha desabilitar" id="pop-up-senha">
+      <h1>SENHA 1/5</h1>
+      <div class="senha-container">
+        <p id="senha"></p>
+      </div>
+      <img
+        src="./sources/images/fechar-senha.png"
+        alt=""
+        class="fechar-senha"
+        id="fechar-senha"
+      />
+    </div>
+
+    <div class="pop-up desabilitar" id="pop-up-correto">
+      <h1>
+        Isso! Você <br />
+        <strong>acertou</strong> a senha!
+      </h1>
+      <p>
+        Agora você só precisa <br />
+        descobrir as outras!
+      </p>
+      <img
+        src="./sources/images/seta.png"
+        id="resposta-correta"
+        class="seta-voltar"
+        alt="seta"
+      />
+    </div>
+
+    <div class="pop-up desabilitar" id="pop-up-incorreta">
+      <h1>Tente <br />de Novo</h1>
+      <p>
+        Senha <br />
+        incorreta!
+      </p>
+      <img
+        src="./sources/images/seta.png"
+        id="resposta-incorreta"
+        class="seta-voltar"
+        alt="seta"
+      />
+    </div>
+
+    <div class="pop-up desabilitar" id="pop-up-final">
+      <h1>IHUUUL! <br />Vocês escaparam!!</h1>
+      <p>
+        Nada pôde <br />
+        impedir vocês. Hora de ir para o Nether!
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
