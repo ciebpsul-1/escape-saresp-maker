@@ -22,7 +22,7 @@ body {
 
   width: 700px;
   height: 320px;
-
+  text-align: center;
   padding: 40px;
 }
 
@@ -91,8 +91,8 @@ body {
 
 .seta {
   position: relative;
-  margin-top: 5px;
-  left: 80%;
+  margin-top: 10px;
+  left: 30%;
   height: 50px;
 }
 
@@ -108,7 +108,7 @@ body {
   position: relative;
   margin-top: 10px;
   bottom: -15%;
-  left: 10%;
+  left: -33%;
   height: 50px;
   rotate: 180deg;
 }
